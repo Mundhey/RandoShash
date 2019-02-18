@@ -1,5 +1,3 @@
-Blockchain-ASIC-Resistance
-
 
 # Project Title
 
