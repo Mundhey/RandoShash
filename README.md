@@ -59,11 +59,11 @@ Ethash requires external memory due to the large size of the DAG.  However that 
 
 ## RandoShash Algorithm Walkthrought
 
-
+<!---
 
 ## Example/Testcase
 
-
+--->
 
 ## Built With
 
