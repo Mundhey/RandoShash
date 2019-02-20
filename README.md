@@ -5,10 +5,9 @@ Solving ASIC Resistance Problem in Cryptocurrency Mining
 
 
 ## RandoShash Overview
-Approach is to use a sequence of hashing algorithms where the output of one becomes the input to the next
-the fixed order of hashing algorithms lends itself to the construction of ASICs while chaining more algorithms together adds difficulty in constructing an ASIC.We can randomize ordering based on the hash of the previous block.
+Approach is to use a Random sequence of hashing algorithms based on hash of previous block, where the output of one becomes the input to the next
 
-[Project Website](https://mundhey.github.io/Blockchain-ASIC-Resistance/)
+[Project Website](https://mundhey.github.io/RandoShash/)
 
 <!---
 ## Review of Existing PoW Algorithm
