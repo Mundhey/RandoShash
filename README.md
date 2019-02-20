@@ -10,7 +10,7 @@ the fixed order of hashing algorithms lends itself to the construction of ASICs 
 
 [Project Website](https://mundhey.github.io/Blockchain-ASIC-Resistance/)
 
-
+<!---
 ## Review of Existing PoW Algorithm
 
 ### SHA256 [Project](https://github.com/bitcoin/bitcoin/blob/master/src/crypto/sha256.cpp)
@@ -56,7 +56,7 @@ Compared to Scrypt, CryptoNight does much less compute and requires a full 2mb o
 
 Ethash requires external memory due to the large size of the DAG.  However that is all that it requires - there is minimal compute that is done on the result loaded from memory.  As a result a custom ASIC could remove most of the complexity, and power, of a GPU and be just a memory interface connected to a small compute engine.
 
-
+--->
 
 ## RandoShash Algorithm Walkthrought
 
