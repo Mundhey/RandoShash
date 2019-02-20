@@ -3,13 +3,21 @@
 
 Solving ASIC Resistance Problem in Cryptocurrency Mining
 
+
 ## RandoShash Overview
+[Project Website](https://mundhey.github.io/Blockchain-ASIC-Resistance/)
+
 
 ## Review of Existing PoW Algorithm
 
+
+
 ## RandoShash Algorithm Walkthrought
 
+
+
 ## Example/Testcase
+
 
 
 ## Built With
@@ -24,7 +32,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Rohan Mundhey** - *Initial work* - [PurpleBooth](https://github.com/Mundhey)
+* **Rohan Mundhey** [Core Developer](https://github.com/Mundhey)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -32,10 +40,6 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
  
