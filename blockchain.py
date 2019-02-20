@@ -25,7 +25,7 @@ def Algo2():
 
 def Algo3():
 
-
+print("Hello World")
 
 while True:
 
