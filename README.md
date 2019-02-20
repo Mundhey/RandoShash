@@ -78,7 +78,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Rohan Mundhey** [Core Developer](https://github.com/Mundhey)
+* **Rohan Mundhey** [Profile](https://github.com/Mundhey)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
