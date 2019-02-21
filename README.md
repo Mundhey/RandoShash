@@ -5,7 +5,7 @@ Solving ASIC Resistance Problem in Cryptocurrency Mining
 
 
 ## RandoShash Overview
-Approach is to use a Random sequence of hashing algorithms based on hash of previous block, where the output of one becomes the input to the next
+Approach is to use a Random sequence of hashing algorithms based on hash of previous block, where the output of one becomes the input to the next and each algorithm is applied Random no of times
 
 [Project Website](https://mundhey.github.io/RandoShash/)
 
