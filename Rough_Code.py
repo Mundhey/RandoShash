@@ -1,3 +1,12 @@
+#Previous POW Algorithms
+#SHA256 for Bitcoin (Potential ASIC efficiency gain ~ 1000X)
+#Scrypt for Litecoin (Potential ASIC efficiency gain ~ 1000X)
+#Ethash for Etherium (Potential ASIC efficiency gain ~ 2X)
+#X16R   for Ravecoin (Potential ASIC efficiency gain ~ 1000X)
+#Equihas for Zcash (Potential ASIC efficiency gain ~ 100X)
+
+
+
 import hashlib
 import random
 
@@ -73,4 +82,10 @@ xyz="00000000000000000002a0fa3eb60b3be73ae5715c459384ef5e4de6fdc3a1d7"
 hash_list=[hashlib.md5,hashlib.sha256,hashlib.sha512]
 
 print(random.choice(hash_list)(str.encode(xyz)).hexdigest())
+
+
+
+
+# new approach
+
 

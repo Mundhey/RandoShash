@@ -1,33 +1,19 @@
-#Blockchain ASIC Resistance
+import hashlib
+import random
+
+fun_list=[hashlib.sha256,hashlib.sha512,hashlib.md5]
+
+#Hash of Bitcoin block mined on 21/2/2019
+
+xyz="00000000000000000002a0fa3eb60b3be73ae5715c459384ef5e4de6fdc3a1d7"
 
 
-#Previous POW Algorithms
-#SHA256 for Bitcoin (Potential ASIC efficiency gain ~ 1000X)
-#Scrypt for Litecoin (Potential ASIC efficiency gain ~ 1000X)
-#Ethash for Etherium (Potential ASIC efficiency gain ~ 2X)
-#X16R   for Ravecoin (Potential ASIC efficiency gain ~ 1000X)
-#Equihas for Zcash (Potential ASIC efficiency gain ~ 100X)
+for _ in range(10):
 
-
-
-
-#Proposed Algorithm Approach
-#use a sequence of hashing algorithms where the output of onebecomes the input to the next
-#The fixed order of hashing algorithms lends itself to the construction of ASICs
-#While chaining more algorithms together adds difficulty in constructing an ASIC
-#We can randomize ordering based on the hash of the previous block
-
-
-
-
-
-
-
-
-
-
-
-
+    xyz_binary=str.encode(xyz)
+    hash_object=random.choice(fun_list)(xyz_binary)
+    print(hash_object.hexdigest())
+    xyz=hash_object.hexdigest()
 
 
 
