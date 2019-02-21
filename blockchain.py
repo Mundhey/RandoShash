@@ -19,7 +19,7 @@
 
 
 import hashlib
-
+import random
 
 a="Hello world"
 byte_encode=str.encode(a)
@@ -57,6 +57,56 @@ print(sha256_hashobject)
 md5_hashobject=hashlib.md5(str.encode(sha256_hashobject.hexdigest()))
 
 print("MD5 \n ",md5_hashobject.hexdigest())
+
+
+
+
+
+
+
+def fun1():
+    print("function 1")
+
+def fun2():
+    print("function 2")
+
+def fun3():
+    print("function 3")
+
+
+my_list=[fun1,fun2,fun3]
+
+
+
+random.choice(my_list)()
+
+
+
+
+
+
+
+# Rough code
+
+xyz="00000000000000000002a0fa3eb60b3be73ae5715c459384ef5e4de6fdc3a1d7"
+
+hash_list=[hashlib.md5,hashlib.sha256,hashlib.sha512]
+
+print(random.choice(hash_list)(str.encode(xyz)).hexdigest())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
