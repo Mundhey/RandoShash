@@ -1,6 +1,7 @@
 import hashlib
 import random
 
+
 #fun_list=[hashlib.sha256,hashlib.sha512,hashlib.md5]
 
 #Hash of Bitcoin block mined on 21/2/2019
@@ -19,7 +20,7 @@ import random
 
 #Building a Blockchain
 
-
+#creating blockchain class
 class Blockchain(object):
 
 
