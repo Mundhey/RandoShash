@@ -78,6 +78,8 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 ## Authors
 
 * **Rohan Mundhey** [Profile](https://github.com/Mundhey)
+* **Dr. Pilli Emmanuel Shubhakar**[Profile](http://www.mnit.ac.in/faculty/profile.php?fid=DDWic9bOIGqobvi0OMHKezOP_ywOpCeVass8pdAACPs)
+* **Yashika Verma**
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
