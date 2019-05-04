@@ -205,7 +205,7 @@ class Blockchain:
 
         """
         Thesis Work
-        
+
         fun_list=[hashlib.sha256,hashlib.sha512,hashlib.md5]
 
         #Hash of Bitcoin block mined on 21/2/2019
@@ -219,25 +219,21 @@ class Blockchain:
             hash_object=random.choice(fun_list)(xyz_binary)
             print(hash_object.hexdigest())
             xyz=hash_object.hexdigest()
-        
-        
-        
-        
+
+
+
+
         """
-        fun_list = [hashlib.sha256, hashlib.sha512, hashlib.md5,hashlib.sha3_512,hashlib.sha3_256]
+        fun_list = [hashlib.sha256, hashlib.sha512, hashlib.md5 ,hashlib.sha3_512,hashlib.sha3_256]
         guess = f'{last_proof}{proof}{last_hash}'
         guess_copy = guess
 
-        for xyz in range(random.randint(5,10)):
+        for xyz in range(5):
+            abc = str.encode(guess_copy)
 
+            hash_object = fun_list[xyz](abc)
 
-            abc=str.encode(guess_copy)
-
-            hash_object=random.choice(fun_list)(abc)
-
-            guess_copy=hash_object.hexdigest()
-
-
+            guess_copy = hash_object.hexdigest()
 
         guess_hash = hash_object.hexdigest()
         return guess_hash[:4] == "00000"
