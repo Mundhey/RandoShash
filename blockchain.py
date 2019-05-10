@@ -4,7 +4,6 @@ from time import time
 from urllib.parse import urlparse
 from uuid import uuid4
 import random
-
 import requests
 from flask import Flask, jsonify, request
 
@@ -181,14 +180,15 @@ class Blockchain:
         :param last_block: <dict> last Block
         :return: <int>
         """
-
+        start=time()
         last_proof = last_block['proof']
         last_hash = self.hash(last_block)
 
         proof = 0
         while self.valid_proof(last_proof, proof, last_hash) is False:
             proof += 1
-
+        end=time()
+        print(end-start)
         return proof
 
     @staticmethod
@@ -240,7 +240,7 @@ class Blockchain:
 
 
         guess_hash = hash_object.hexdigest()
-        return guess_hash[:4] == "00000"
+        return guess_hash[:3] == "000"
 
 
 # Instantiate the Node
@@ -343,6 +343,8 @@ def consensus():
 
 
 if __name__ == '__main__':
+
+
     from argparse import ArgumentParser
 
     parser = ArgumentParser()

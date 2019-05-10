@@ -181,14 +181,15 @@ class Blockchain:
         :param last_block: <dict> last Block
         :return: <int>
         """
-
+        start=time()
         last_proof = last_block['proof']
         last_hash = self.hash(last_block)
 
         proof = 0
         while self.valid_proof(last_proof, proof, last_hash) is False:
             proof += 1
-
+        end=time()
+        print(end-start)
         return proof
 
     @staticmethod
@@ -236,7 +237,7 @@ class Blockchain:
             guess_copy = hash_object.hexdigest()
 
         guess_hash = hash_object.hexdigest()
-        return guess_hash[:4] == "00000"
+        return guess_hash[:3] == "000"
 
 
 # Instantiate the Node
