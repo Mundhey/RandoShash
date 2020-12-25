@@ -57,19 +57,13 @@ Ethash requires external memory due to the large size of the DAG.  However that 
 
 --->
 
-## RandoShash Algorithm Walkthrought
 
-<!---
-
-## Example/Testcase
-
---->
 
 ## Built With
 
 * [Python](https://www.python.org/) - The Programming Language
-* [PyCharm](https://www.jetbrains.com/pycharm/) - IDE
-* [GitKraken](https://www.gitkraken.com/) - Github Client for Linux
+
+
 
 ## Contributing
 
